@@ -8,13 +8,13 @@
         android:targetSdkVersion="16"/>
 
     <application
-        android:label="Scratch"
+        android:label="Desafio Mobile Meli"
         android:icon="@drawable/android:star_big_on"
-        android:theme="@android:style/Theme.Holo.Light"
+        android:theme="@android:style/Theme.Holo"
         android:debuggable="true">
 
         <activity
-          android:label="Scratch"
+          android:label="Desafio Mobile Meli"
           android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

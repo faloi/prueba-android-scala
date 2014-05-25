@@ -2,7 +2,7 @@
 androidDefaults
 
 // Name of your app
-name := "Scratch"
+name := "Desafio Mobile Meli"
 
 // Version of your app
 version := "0.1"
