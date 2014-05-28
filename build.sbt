@@ -14,6 +14,6 @@ versionCode := 0
 scalaVersion := "2.10.1"
 
 // Version of the Android platform SDK
-platformName := "android-16"
+platformName := "android-19"
 
 libraryDependencies += "org.scaloid" %% "scaloid" % "3.3-8"

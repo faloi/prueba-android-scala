@@ -1,4 +1,4 @@
-package com.scratch
+package com.cuantocuesta.controller
 
 import org.scaloid.common._
 import android.view.Gravity

@@ -4,18 +4,18 @@
     android:versionName="0.1">
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16"/>
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19"/>
 
     <application
         android:label="Desafio Mobile Meli"
         android:icon="@drawable/android:star_big_on"
-        android:theme="@android:style/Theme.Holo"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar"
         android:debuggable="true">
 
         <activity
           android:label="Desafio Mobile Meli"
-          android:name=".MainActivity">
+          android:name="com.cuantocuesta.controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
