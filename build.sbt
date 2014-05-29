@@ -16,4 +16,8 @@ scalaVersion := "2.10.1"
 // Version of the Android platform SDK
 platformName := "android-19"
 
-libraryDependencies += "org.scaloid" %% "scaloid" % "3.3-8"
+// Dependencies
+libraryDependencies ++= Seq(
+  "org.scaloid" %% "scaloid" % "3.3-8",
+  "com.octo.android.robospice" % "robospice" % "1.4.12"
+)
