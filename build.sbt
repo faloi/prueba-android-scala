@@ -19,5 +19,6 @@ platformName := "android-19"
 // Dependencies
 libraryDependencies ++= Seq(
   "org.scaloid" %% "scaloid" % "3.3-8",
-  "com.octo.android.robospice" % "robospice" % "1.4.12"
+  "com.octo.android.robospice" % "robospice" % "1.4.12",
+  "com.octo.android.robospice" % "robospice-google-http-client" % "1.4.12"
 )
