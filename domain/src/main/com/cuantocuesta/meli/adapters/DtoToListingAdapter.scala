@@ -4,5 +4,5 @@ import com.cuantocuesta.meli.dtos.Result
 import com.cuantocuesta.Listing
 
 class DtoToListingAdapter() {
-  def valueFor(listing: Result) = Listing(listing.title, listing.price)
+  def valueFor(listing: Result) = Listing(listing.price, listing.category_id)
 }
