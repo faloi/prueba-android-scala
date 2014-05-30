@@ -5,7 +5,7 @@ import com.google.api.client.json.jackson.JacksonFactory
 import com.octo.android.robospice.request.googlehttpclient.GoogleHttpClientSpiceRequest
 import com.cuantocuesta.models.Currency
 
-class SampleSpiceRequest() extends GoogleHttpClientSpiceRequest[Currency](classOf[Currency]) {
+class SampleSpiceRequest() extends GoogleHttpClientSpiceRequest(classOf[Currency]) {
   private var baseUrl: String = "https://api.mercadolibre.com/currencies/ARS"
 
   override def loadDataFromNetwork(): Currency = {
