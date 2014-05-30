@@ -15,6 +15,10 @@ This will install the latest plugin snapshot :
   * Install with `install`
   * Start with `start`
 
+## IDE
+
+Create the Android Studio project with `sbt gen-idea`.
+
 ## Directory layout
 
 ```
